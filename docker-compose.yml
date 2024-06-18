@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  nginx:
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - websocket
+
+  websocket:
+    build: ./websocket
+    ports:
+      - "8888:8888"  # WebSocket 服务器监听端口 8888
