@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-Web-Multiplayer-Test-0.1.0";
+const cacheName = "DefaultCompany-Web-Multiplayer-Test-0.1.3";
 const contentToCache = [
     "Build/webgl_build.loader.js",
     "Build/webgl_build.framework.js",
